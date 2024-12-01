@@ -52,19 +52,19 @@ The air quality is a crucial environmental factor that significantly impacts pub
 - Data Validation: The dataset was checked for any outliers or inconsistencies to ensure high-quality inputs for further analysis.
 
 2. **Feature Engineering**
-- Air Quality Categories: A new calculated column, Air Quality Category, was created based on predefined AQI thresholds. Categories include "Good," "Moderate," "Unhealthy for Sensitive - Groups," "Unhealthy," "Very Unhealthy," and "Hazardous."
-- Health Impact Score: A Health Impact Score was generated to assess the severity of pollution’s effect on public health, based on AQI values and pollutant concentrations.
+- Air Quality Categories: Some new calculated columns (AQI SCALE, NO2 SCALE, O3 SCALE, PM1O SCALE, PM2_5 SCALE, SO2 SCALE) were created based on predefined AQI etc thresholds. Categories include "Good," "Moderate," "Unhealthy for Sensitive Groups," "Unhealthy," "Very Unhealthy," and "Hazardous."
 - Weather Aggregation: Aggregated weather parameters (temperature, humidity, wind speed) were calculated over time for easier comparison with pollution data.
-
+- Health Impact Score: A Health Impact Score was generated to assess the severity of pollution’s effect on public health, based on AQI values and pollutant concentrations.
+  
 3. **Correlation Analysis**
-- Correlation Study: Correlation between pollutants (AQI, PM2.5, NO2) and weather parameters was performed using Python. This identified key relationships, such as the impact of humidity and temperature on pollution levels.
+- Correlation Study: Correlation between pollutants (AQI,O3, PM1O, PM2.5, NO2, SO2) and weather parameters was performed using 'Scatter Chart'. This identified key relationships, such as the impact of humidity and temperature on pollution levels.
 - Findings: Strong correlations were found between elevated temperatures, humidity, and higher pollutant levels, particularly in the "Very Unhealthy" AQI category.
 
 4. **Visualization in Power BI**
 - The analysis was visualized in Power BI through a series of dashboards, each designed to provide clear insights into the dataset:
-- Air Quality Trends Dashboard: Line and stacked bar charts displaying time-series data for AQI and pollutant levels.
-- Weather and Air Quality Correlation Dashboard: Heatmaps and scatter plots showing interactions between weather and pollutant levels.
-- Health Impact Analysis Dashboard: Clustered bar charts illustrating the relationship between AQI categories and health impact scores.
+- Air Quality Trends Dashboard: 'Line Chart' and 'Table' displaying time-series data for AQI and pollutant levels during the time.
+- Weather and Air Quality Correlation Dashboard: 'Line Chart' and 'Scatter Chart' showing interactions between weather and pollutant levels.
+- Health Impact Analysis Dashboard: 'Stacked bar chart' Combining Analysis of Weather, Air Quality, and Health, a 'Scatter and Pie chart' visualising the air quality and health impact and giving an otherview of health cases.
 - Key Insights and Recommendations Dashboard: Combined insights from all previous dashboards, supported by stacked bar and column charts.
 
 ---

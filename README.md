@@ -116,6 +116,10 @@ The air quality is a crucial environmental factor that significantly impacts pub
 
 ![image](https://github.com/user-attachments/assets/a08ec86c-5e5f-4e3e-9924-ae42e294d46d) 
 
+![image](https://github.com/user-attachments/assets/04826837-f94d-40d1-a14a-4ff2b7da069e)
+
+![image](https://github.com/user-attachments/assets/90b6e13e-6b49-42b9-8760-47e8571683f1)
+
 
 
 

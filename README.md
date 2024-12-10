@@ -112,6 +112,7 @@ The air quality is a crucial environmental factor that significantly impacts pub
    ```bash
    git clone https://github.com/alice-patrick/Air-Quality-and-Health-Impact-Analysis-Data-Cleaning-Visualization-and-Statistical-Insights.git
 
-![Air Quality Dashboard](https://files.oaiusercontent.com/file-SiDQ3LVZi8qMKvLqCCKg2v?se=2024-12-10T22%3A32%3A06Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dimage.png&sig=/WopBBZ89LcXChSrrLTP3IEG2VRNIFkTjEe7goITIG0%3D)
+![image](https://github.com/user-attachments/assets/5a878a16-2ea2-4b79-abda-d79dcc22609d)
+
 
 
